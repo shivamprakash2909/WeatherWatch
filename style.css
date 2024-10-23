@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height:100vh;
+    background-color:rgb(83, 55, 172);
+}
+.navbar{
+    background-color: rgb(22, 22, 86);
+    width: 100vw;
+    height: 8vh;
+}
+#navItems{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content:space-between ;
+   align-items: center;
+}
+#navLogo{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top:0.7vh;
+
+}
+#searchbox{
+    border: 2px solid white;
+    border-radius: 5px;
+    width:20vw;
+    height:3.3vh;
+    position: relative;
+    right: 5px;
+    top: 4.8px
+}
+.search{
+    display:flex;
+    
+}
+#searchButton{
+    height:2.7vh;
+    width: 1.3vw;
+    position:relative;
+    right:2vw;
+    top: 1.3vh;
+}
+.cardContainer{
+    background-color: rgb(255, 255, 255);
+    height: 57vh;
+    width: 20vw;
+    position: relative;
+    top:12vh;
+    left:35vw;
+}
+.cityContainer{
+    height:30vh ;
+    width:19.9vw;
+    /* border: 2px solid blue; */
+    position:relative;
+    
+}
+#weatherImage{
+    height: 30vh;
+    width: 19.99vw;
+}
+#cityName{
+    position: relative;
+    bottom:5.5vh;
+    left: 0.2vw;
+    font-weight: bold;
+    font-size: 2em;
+}
+.weatherContent{
+    /* border: 2px solid black; */
+    height: 27vh;
+    position: relative;
+    left: 0.1vw;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherWatch</title>
+    <link rel="icon" type="image/x-icon" href="favIcon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navlist">
+            <nav>
+                <ul id="navItems">
+                    <ul>
+                        <p href="" id="navLogo">WeatherWatch</p>
+                    </ul>
+
+                    <ul>
+                        <div class="search">
+
+                            <ul> <input type="text" placeholder="Search city..." id="searchbox"></ul>
+                            <ul>
+                                <img id="searchButton" src="search.png" alt=" ">
+                            </ul>
+
+
+                        </div>
+
+                    </ul>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="cardContainer">
+        <div class="cityContainer">
+            <img id="weatherImage" src="hotWeather.gif" alt="cityImage">
+            <b id="cityName">Patna</b>
+        </div>
+
+
+        <div class="weatherContent">
+            <ul>
+                <b>Cloud PCT is: </b><span id="cloud_pct"></span>
+            </ul>
+            <ul>
+                <b>Temperature is: </b><span id="temp"></span><span>&degC</span>
+
+            </ul>
+            <ul>
+                <b>Feels like: </b><span id="feels_like"></span><span>&degC</span>
+            </ul>
+            <ul>
+                <b>Humidity : </b><span id="humidity"></span><span>%</span>
+            </ul>
+            <ul>
+                <b>Min temp: </b><span id="min_temp"></span><span>&degC</span>
+            </ul>
+            <ul>
+                <b>Max temp: </b><span id="max_temp"></span><span> &degC</span>
+            </ul>
+            <ul>
+                <b>Wind speed: </b><span id="wind_speed"></span><span>km/hr</span>
+            </ul>
+            <ul>
+                <b>Wind Degree: </b><span id="wind_degrees"></span><span>&deg from North</span>
+            </ul>
+            <ul>
+                <b>Sunrise at: </b><span id="sunrise"></span><span> IST</span>
+            </ul>
+            <ul>
+                <b>Sunset at: </b><span id="sunset"></span><span> IST</span>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
